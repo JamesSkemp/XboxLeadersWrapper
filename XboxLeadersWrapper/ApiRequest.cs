@@ -10,6 +10,7 @@ namespace XboxLeadersWrapper
 		/// Helper to make a request to the API.
 		/// </summary>
 		/// <param name="methodPath">Path to the method to call.</param>
+		/// <param name="parameters">Parameters to use.</param>
 		/// <returns>API response.</returns>
 		private string ApiRequest(string methodPath, string parameters)
 		{
