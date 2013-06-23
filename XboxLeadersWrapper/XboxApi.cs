@@ -13,7 +13,7 @@ namespace XboxLeadersWrapper
 		/// </summary>
 		private const string authorizationHeader = "X-Mashape-Authorization";
 		/// <summary>
-		/// Base URL of the API, reading for String.Format (passing version, method, format, then query parameters).
+		/// Base URL of the API, ready for String.Format (passing version, method, format, then query parameters).
 		/// </summary>
 		private const string apiUrl = "https://xboxleaders.p.mashape.com/{0}/{1}.{2}?{3}";
 		#endregion
