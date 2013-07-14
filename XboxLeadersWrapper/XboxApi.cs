@@ -72,7 +72,7 @@ namespace XboxLeadersWrapper
 		/// </summary>
 		/// <param name="gamertag">Gamertag to test.</param>
 		/// <returns>True if the gamertag is valid.</returns>
-		public bool ValidateGamertag(string gamertag)
+		public static bool IsValidGamertag(string gamertag)
 		{
 			return Regex.Match(gamertag, "^[a-zA-z0-9 ]{1,15}$").Success;
 		}
