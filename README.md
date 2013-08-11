@@ -8,7 +8,7 @@ Video Games Spa example
 
 The following is a C# example that will grab all information for a user for generating a Video Game Spa site.
 
-  // See https://www.mashape.com/xboxleaders/xboxleadersapi
+	// See https://www.mashape.com/xboxleaders/xboxleadersapi
 	var apiKey = "insert your api key here";
 	// Ready the API.
 	var api = new XboxLeadersWrapper.XboxApi(apiKey);
